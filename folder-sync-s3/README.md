@@ -48,8 +48,6 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the Repository:**
     
     ```bash
-    bash
-    Copy code
     git clone https://github.com/e-digitalgroup/s3-folder-sync.git
     cd s3-folder-sync
     
@@ -60,8 +58,6 @@ Before you begin, ensure you have met the following requirements:
     Navigate to the project directory and install the required Node.js modules:
     
     ```bash
-    bash
-    Copy code
     npm install
     
     ```
@@ -78,8 +74,6 @@ The application relies on environment variables for configuration. These variabl
 1. **Create a `.env` File:**
     
     ```bash
-    bash
-    Copy code
     touch .env
     
     ```
@@ -89,8 +83,6 @@ The application relies on environment variables for configuration. These variabl
     Open the `.env` file in your preferred text editor and add the following variables:
     
     ```
-    env
-    Copy code
     # AWS Configuration
     S3_REGION=your-aws-region
     S3_BUCKET_ACCESS_KEY_ID=your-access-key-id
@@ -115,8 +107,6 @@ The application relies on environment variables for configuration. These variabl
     **Example:**
     
     ```
-    env
-    Copy code
     S3_REGION=us-west-2
     S3_BUCKET_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
     S3_BUCKET_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
@@ -145,8 +135,6 @@ To run the application in development mode with live-reloading, follow these ste
     Use `nodemon` and `ts-node` to run the application with live-reloading:
     
     ```bash
-    bash
-    Copy code
     npm run dev
     
     ```
@@ -160,8 +148,6 @@ To run the application in development mode with live-reloading, follow these ste
     You should see console logs indicating that the file watcher is initialized and ready.
     
     ```bash
-    bash
-    Copy code
     Running in development mode.
     File watcher initialized and ready.
     
@@ -179,8 +165,6 @@ To prepare the application for production or distribution, you need to compile t
 1. **Compile TypeScript to JavaScript:**
     
     ```bash
-    bash
-    Copy code
     npm run build
     
     ```
@@ -193,8 +177,6 @@ To prepare the application for production or distribution, you need to compile t
     Ensure that the `dist/` directory contains the compiled JavaScript files.
     
     ```bash
-    bash
-    Copy code
     ls dist/
     
     ```
@@ -213,8 +195,6 @@ The application can be packaged into standalone executables for Windows, macOS, 
     Always build the project before packaging to include the latest changes.
     
     ```bash
-    bash
-    Copy code
     npm run build
     
     ```
@@ -222,8 +202,6 @@ The application can be packaged into standalone executables for Windows, macOS, 
 2. **Package for Windows:**
     
     ```bash
-    bash
-    Copy code
     npm run package:win
     
     ```
@@ -234,8 +212,6 @@ The application can be packaged into standalone executables for Windows, macOS, 
 3. **Package for macOS:**
     
     ```bash
-    bash
-    Copy code
     npm run package:mac
     
     ```
@@ -246,8 +222,6 @@ The application can be packaged into standalone executables for Windows, macOS, 
 4. **Package for Linux:**
     
     ```bash
-    bash
-    Copy code
     npm run package:linux
     
     ```
@@ -260,8 +234,6 @@ The application can be packaged into standalone executables for Windows, macOS, 
     *(Optional)* If you've added a `package:all` script to your `package.json`, you can package for all platforms simultaneously:
     
     ```bash
-    bash
-    Copy code
     npm run package:all
     
     ```
@@ -274,8 +246,6 @@ The application can be packaged into standalone executables for Windows, macOS, 
     Navigate to the `build/` directory and confirm that the executables have been created.
     
     ```bash
-    bash
-    Copy code
     cd build
     ls
     
@@ -299,8 +269,6 @@ Once packaged, you can distribute the executables to users on different operatin
         Double-click `s3-folder-sync-win.exe` or run it via the Command Prompt:
         
         ```
-        cmd
-        Copy code
         cd build
         s3-folder-sync-win.exe
         
