@@ -310,8 +310,6 @@ Once packaged, you can distribute the executables to users on different operatin
     - **Make It Executable (If Necessary):**
         
         ```bash
-        bash
-        Copy code
         chmod +x s3-folder-sync-macos
         
         ```
@@ -319,18 +317,13 @@ Once packaged, you can distribute the executables to users on different operatin
     - **Run the Executable:**
         
         ```bash
-        bash
-        Copy code
         ./s3-folder-sync-macos
-        
         ```
         
 3. **Linux Executable:**
     - **Make It Executable:**
         
         ```bash
-        bash
-        Copy code
         chmod +x s3-folder-sync-linux
         
         ```
@@ -338,10 +331,7 @@ Once packaged, you can distribute the executables to users on different operatin
     - **Run the Executable:**
         
         ```bash
-        bash
-        Copy code
         ./s3-folder-sync-linux
-        
         ```
         
 4. **Logging:**
