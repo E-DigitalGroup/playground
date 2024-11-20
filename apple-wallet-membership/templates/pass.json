@@ -1,0 +1,65 @@
+{
+    "passTypeIdentifier": "pass.com.yourcompany.membership",
+    "formatVersion": 1,
+    "organizationName": "Your Company Name",
+    "description": "Premium Membership Pass",
+    "serialNumber": "1234567890",
+    "teamIdentifier": "ABCDE12345",
+    "backgroundColor": "rgb(0,0,0)",
+    "foregroundColor": "rgb(255,255,255)",
+    "labelColor": "rgb(255,0,0)",
+    "barcode": {
+        "message": "https://yourdomain.com/verify?membershipId=123456",
+        "format": "PKBarcodeFormatQR",
+        "messageEncoding": "iso-8859-1"
+    },
+    "locations": [
+        {
+            "latitude": 37.7749,
+            "longitude": -122.4194,
+            "relevantText": "Your Membership is valid here."
+        }
+    ],
+    "fields": {
+        "headerFields": [
+            {
+                "key": "membership",
+                "label": "Membership",
+                "value": "Gold"
+            }
+        ],
+        "primaryFields": [
+            {
+                "key": "memberName",
+                "label": "Member Name",
+                "value": "John Doe"
+            },
+            {
+                "key": "memberId",
+                "label": "Member ID",
+                "value": "123456"
+            }
+        ],
+        "secondaryFields": [
+            {
+                "key": "expiry",
+                "label": "Expires",
+                "value": "2025-01-01"
+            }
+        ],
+        "auxiliaryFields": [
+            {
+                "key": "points",
+                "label": "Points",
+                "value": "1500"
+            }
+        ],
+        "backFields": [
+            {
+                "key": "terms",
+                "label": "Terms and Conditions",
+                "value": "Membership is subject to terms and conditions."
+            }
+        ]
+    }
+}

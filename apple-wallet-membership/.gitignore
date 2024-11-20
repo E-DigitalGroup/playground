@@ -1,0 +1,22 @@
+# .gitignore
+
+# Environment variables
+.env
+
+# Certificates
+/certs/
+/path/to/your/service-account-key.json
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+logs/
+*.log
+
+# Optional: Ignore IDE-specific files
+.vscode/
+.idea/
