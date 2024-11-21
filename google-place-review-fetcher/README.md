@@ -25,7 +25,6 @@
 
 ## Project Structure
 
-The project is organized with a clear and maintainable folder structure, ensuring separation of concerns and ease of navigation.
 
 ```plaintext
 google-place-review-fetcher/

@@ -1,0 +1,40 @@
+{
+  "name": "thumbnail-generator",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to generate thumbnails for images in S3 using TypeScript.",
+  "main": "dist/handlers/thumbnailGenerator.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "npm run build && node dist/handlers/thumbnailGenerator.js",
+    "lint": "eslint . --ext .ts",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "typescript",
+    "s3",
+    "sharp",
+    "thumbnail"
+  ],
+  "author": "E-digitalgroup",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1412.0",
+    "sharp": "^0.32.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.114",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6",
+    "eslint": "^8.50.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "husky": "^8.0.3"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
