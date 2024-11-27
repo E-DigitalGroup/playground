@@ -1,0 +1,87 @@
+.section-contact {
+
+  h3 {
+    color: $white;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .info-wrap {
+    @include media-breakpoint-down(md) {
+      height: 400px;
+    }
+  }
+
+  .contact-wrapper {
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, .05);
+
+    @include media-breakpoint-up(md) {
+      border-radius: 10px;
+      padding: 50px;
+      background-color: $darken;
+    }
+  }
+
+  .contact-detail {
+    margin-bottom: 0;
+
+    .icon {
+      color: $white;
+      font-size: 20px;
+      margin-right: 10px;
+      width: 12px;
+      height: 12px;
+    }
+
+    a {
+      color: $primary
+    }
+  }
+
+
+  .contact-form {
+
+    .label {
+      color: $white;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .form-control {
+      border: none;
+      border: 1px solid rgba(255, 255, 255, .1);
+      padding: 15px;
+      border-radius: 0;
+      background: transparent;
+      color: rgba(255, 255, 255, .5) !important;
+      margin-bottom: 10px;
+
+      &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: rgba(255, 255, 255, .5) !important;
+      }
+
+      &::-moz-placeholder {
+        /* Firefox 19+ */
+        color: rgba(255, 255, 255, .5) !important;
+      }
+
+      &:-ms-input-placeholder {
+        /* IE 0+ */
+        color: rgba(255, 255, 255, .5) !important;
+      }
+
+      &:-moz-placeholder {
+        /* Firefox 18- */
+        color: rgba(255, 255, 255, .5) !important;
+      }
+
+      &:focus,
+      &:active {
+        border-color: $primary !important;
+      }
+    }
+  }
+}

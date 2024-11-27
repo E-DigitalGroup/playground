@@ -1,0 +1,194 @@
+.lh-report {
+	font-family: 'Roboto', Arial, sans-serif;
+	color: #ffffff;
+	max-width: 960px;
+	margin: auto;
+	background-color: #032f40;
+}
+
+.lh-header {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.lh-header h1 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	color: #ffffff;
+}
+
+.lh-header p {
+	font-size: 1em;
+	color: #ffffff;
+}
+
+.lh-header a {
+	color: #66ccff;
+	text-decoration: none;
+}
+
+.lh-category-summary {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.lh-category-score-wrapper {
+	text-align: center;
+	margin: 0 10px;
+}
+
+.lh-category-score-circle {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	font-size: 1.2em;
+	color: #ffffff;
+	line-height: 60px;
+	margin: 0 auto;
+}
+
+.lh-category-score-label {
+	margin-top: 5px;
+	font-size: 0.9em;
+	color: #ffffff;
+}
+
+.lh-category-score-circle.high {
+	background-color: #0cce6b;
+}
+
+.lh-category-score-circle.medium {
+	background-color: #ffa400;
+}
+
+.lh-category-score-circle.low {
+	background-color: #ff4e42;
+}
+
+.lh-category {
+	margin-bottom: 30px;
+}
+
+.lh-category-header {
+	margin-bottom: 15px;
+}
+
+.lh-category-header h2 {
+	font-size: 1.5em;
+	margin: 0;
+	color: #ffffff;
+}
+
+.lh-audit-group h3 {
+	font-size: 1.2em;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	color: #ffffff;
+}
+
+.lh-audit {
+	padding: 10px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.lh-audit-header {
+	display: flex;
+	align-items: center;
+}
+
+.lh-audit-score {
+	width: 50px;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.lh-audit-title {
+	flex-grow: 1;
+	margin-left: 10px;
+	font-size: 1em;
+	color: #ffffff;
+}
+
+.lh-audit-description {
+	margin-top: 8px;
+	font-size: 0.9em;
+	color: #cccccc;
+}
+
+.lh-details-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+.lh-details-table th,
+.lh-details-table td {
+	border: 1px solid #cccccc;
+	padding: 8px;
+	text-align: left;
+	color: #ffffff;
+}
+
+.lh-details-table th {
+	background-color: #064055;
+	font-weight: 500;
+}
+
+.lh-details-table td a {
+	color: #66ccff;
+}
+
+.lh-audit--pass {
+	background-color: rgba(12, 206, 107, 0.2);
+}
+
+.lh-audit--fail {
+	background-color: rgba(255, 78, 66, 0.2);
+}
+
+.lh-audit--average {
+	background-color: rgba(255, 164, 0, 0.2);
+}
+
+.lh-audit--informative {
+	background-color: rgba(99, 110, 114, 0.2);
+}
+
+.lh-audit--manual {
+	background-color: rgba(255, 234, 167, 0.2);
+}
+
+@media (max-width: 600px) {
+	.lh-category-score-circle {
+		width: 50px;
+		height: 50px;
+		font-size: 1em;
+		line-height: 50px;
+	}
+
+	.lh-category-score-label {
+		font-size: 0.8em;
+		color: #ffffff;
+	}
+
+	.lh-header h1 {
+		font-size: 1.8em;
+	}
+
+	.lh-category-header h2 {
+		font-size: 1.3em;
+	}
+
+	.lh-audit-score {
+		width: 40px;
+		font-size: 0.9em;
+	}
+
+	.lh-audit-title {
+		font-size: 0.9em;
+	}
+}

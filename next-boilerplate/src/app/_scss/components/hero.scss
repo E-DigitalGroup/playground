@@ -1,0 +1,98 @@
+.ftco-intro {
+
+  height: 90vh;
+  padding: 0;
+  background: transparent url('/images/iStock-1279738776.webp') no-repeat 100% top;
+  background-size: cover;
+
+  @include media-breakpoint-up(lg) {
+    //margin-top: -70px;
+
+  }
+
+  .container-fluid,
+  .row,
+  .col {
+    height: 100%;
+
+  }
+
+  .col {
+    background-color: rgba($color: #000000, $alpha: 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+
+    @include media-breakpoint-up(md) {
+      padding: 100px;
+    }
+  }
+
+  h2 {
+    color: $white;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 10px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 0px;
+    }
+
+
+    span {
+      display: block;
+
+
+      @include media-breakpoint-up(lg) {
+        display: inline;
+        margin-right: 5px;
+      }
+
+    }
+
+    @include media-breakpoint-down(sm) {
+      font-size: 30px;
+    }
+  }
+
+  .icon-scroll {
+    // position: absolute;
+    // bottom: 0;
+    // left: 50%;
+    // width: 10px;
+    // cursor: pointer;
+    // height: 0px;
+  }
+
+  /* Stop animation on hover */
+  .icon-scroll:hover .fa-down-arrow {
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  .fa-down-arrow {
+    font-size: 14px;
+    -webkit-animation: bounce 2.6s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation: bounce 2.6s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+
+
+  /* Bounce Animation */
+  @keyframes bounce {
+    50% {
+      transform: translateY(20px);
+    }
+  }
+}

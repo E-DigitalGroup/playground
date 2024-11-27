@@ -1,0 +1,833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>APS :: Residential</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<!-- fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- global styles -->
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/global.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/hero.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+	<!-- libraries -->
+	<link rel="stylesheet" href="css/colorbox.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+	<!-- section styles -->
+	<link rel="stylesheet" href="css/residential/residential.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+	<!-- authenticated styles -->
+	<link rel="stylesheet" href="css/residential/my-account.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+	<!-- sub section styles -->
+	<link rel="stylesheet" href="css/residential/save-money-energy/section.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+	<!-- custom form styles -->
+	<link rel="stylesheet" href="css/uniform.residential.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+</head>
+
+<!-- classes convention on body tag
+
+	main section 
+	sub-section 
+	sub-sub-section 
+	sub-sub-section page 
+	
+	This will allow you to hang section specific styling to pages and navigation elements
+-->
+<body class="residential payment-options">
+	
+	<!--
+	Form Fields : give form fields an ID value as this is used in Script to get the default text value for those fields
+
+	-->
+
+	<a href="#main" id="skipNav">Skip navigation</a>
+	<div id="global-header">
+		<div class="global-header-top">			
+			<div class="container_5">		
+				<div class="grid_5  alpha omega prefix_02">	
+					<div id="global-nav">
+						<ul>
+							<li id="residential"><a href="Non-Auth/residential/" title="Residential">residential</a></li>
+							<li id="business"><a href="#" title="Residential">business</a></li>
+							<li id="community"><a href="#" title="community &amp; environment">community &amp; environment</a></li>
+							<li id="company"><a href="#" title="our company">our company</a></li>
+						</ul>	
+					</div><!-- /#global-nav -->
+
+					<div id="global-login">				
+						<form action="#" method="post" accept-charset="utf-8">
+							<fieldset>
+								<legend>Login</legend>
+								<input type="text" name="username" value="Username" class="text" id="username">
+								<input type="password" name="password" value="Password" class="text" id="password">
+								<input type="submit" value="login" class="login">							
+							</fieldset>		
+							<div id="login-help">
+								<input type="checkbox" name="remember-me" value="yes" /> remember me
+								<a href="#" title="Forgot your password?">forgot your password?</a>
+							</div><!-- / -->					
+						</form>				
+						<a href="create-account.html" title="register" class="btn register">register</a>		
+
+					</div><!-- /#login-global -->
+				</div><!-- /.grid_5 -->
+			</div><!-- /.container_5 -->	
+		</div><!-- /.global-header-top -->
+
+		<div class="container_5" id="logo">	
+			<div class="grid_3  alpha omega prefix_02">
+				<a href="Non-Auth/residential/" title="Home"><img src="img/aps-logo.gif" alt="APS Logo" /></a>
+			</div><!-- /.grid_3 -->
+
+
+			<div id="global-search" class="grid_2">
+				<form action="#" method="post" accept-charset="utf-8">
+					<fieldset>
+						<legend>Global Search</legend>
+						<input type="text" name="searchstring" value="Search" id="searchstring">
+						<input type="submit" value="Search" id="search-submit">					
+					</fieldset>
+				</form>
+				<div class="social-rss">
+					<a href="#" title="Facebook" class="facebook ir">facebook</a>
+					<a href="#" title="twitter" class="twitter ir">twitter</a>
+				</div>
+			</div>
+		</div><!-- /.container_5 -->
+
+		<div class="container_5">		
+			<div id="secondary-nav" class="grid_5 alpha omega">
+				<ul>
+					<li class="dd-trigger first" id="account-services">
+						<a href="#" title="account services">account services</a>
+						<div class="level_1">
+							<ul>
+								<li class="parent">
+									<a href="#" title="start/stop/transfer service">start/stop/transfer service</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li class="parent">
+									<a href="payment-options.html" title="payment options">payment options</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li class="parent">
+									<a href="#" title="assistance programs">assistance programs</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li><a href="#" title="understanding your bill">understanding your bill</a></li>
+								<li><a href="#" title="energy rates">energy rates</a></li>
+								<li class="parent">
+									<a href="#" title="assistance programs">assistance programs</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li><a href="#" title="smart meters">smart meters</a></li>
+							</ul><!-- / -->
+							<div class="default-content">
+								<div>
+									<img src="img/temp/drop-down.png" alt="">
+									<p class="large">lorem ipsum dol sit amet ipsum dol</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dd-trigger" id="save-money">
+						<a href="save-money-and-energy/" title="save money and energy">save money and energy</a>
+						<div class="level_1">
+							<ul>
+								<li class="parent">
+									<a href="#" title="start/stop/transfer service">start/stop/transfer service</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li class="parent">
+									<a href="#" title="payment options">payment options</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li class="parent">
+									<a href="#" title="assistance programs">assistance programs</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li><a href="#" title="understanding your bill">understanding your bill</a></li>
+								<li><a href="#" title="energy rates">energy rates</a></li>
+								<li class="parent">
+									<a href="#" title="assistance programs">assistance programs</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li><a href="#" title="smart meters">smart meters</a></li>
+							</ul><!-- / -->
+							<div class="default-content">
+								<div>
+									<img src="img/temp/drop-down.png" alt="">
+									<p class="large">lorem ipsum dol sit amet ipsum dol</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dd-trigger" id="renewable-energy">
+						<a href="renewable-energy/" title="renewable energy">renewable energy</a>
+						<div class="level_1">
+							<ul>
+								<li class="parent">
+									<a href="#" title="start/stop/transfer service">start/stop/transfer service</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li class="parent">
+									<a href="#" title="payment options">payment options</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li class="parent">
+									<a href="#" title="assistance programs">assistance programs</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li><a href="#" title="understanding your bill">understanding your bill</a></li>
+								<li><a href="#" title="energy rates">energy rates</a></li>
+								<li class="parent">
+									<a href="#" title="assistance programs">assistance programs</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li><a href="#" title="smart meters">smart meters</a></li>
+							</ul><!-- / -->
+							<div class="default-content">
+								<div>
+									<img src="img/temp/drop-down.png" alt="">
+									<p class="large">lorem ipsum dol sit amet ipsum dol</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="dd-trigger left-align" id="residential-support">
+						<a href="#" title="residential support">residential support</a>
+						<div class="level_1">
+							<ul>
+								<li class="parent">
+									<a href="#" title="start/stop/transfer service">start/stop/transfer service</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li class="parent">
+									<a href="#" title="payment options">payment options</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li class="parent">
+									<a href="#" title="assistance programs">assistance programs</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li><a href="#" title="understanding your bill">understanding your bill</a></li>
+								<li><a href="#" title="energy rates">energy rates</a></li>
+								<li class="parent">
+									<a href="#" title="assistance programs">assistance programs</a>
+									<div class="level_2  center">
+										<div class="test-content">
+											<p class="large">lorem ipsum dol sit amet, consectetur adipisicing elit</p>
+											<p>- Lorem Ipsum</p>
+											<img src="img/temp/head-shot.png" class="head-shot" />
+										</div><!-- / -->
+									</div>
+								</li>
+								<li><a href="#" title="smart meters">smart meters</a></li>
+							</ul><!-- / -->
+							<div class="default-content">
+								<div>
+									<img src="img/temp/drop-down.png" alt="">
+									<p class="large">lorem ipsum dol sit amet ipsum dol</p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div><!-- /#secondary-nav -->
+		</div><!-- /.container_5 -->
+	</div><!-- /#global-header -->
+	
+	<div id="title-bar" class="blue">
+		<div class="container_5">
+
+			<div class="grid_5">
+				<div id="breadcrumbs" class="clearfix prefix_01">
+					<ul>
+						<li><a href="#" title="Back to residential">residential home</a></li>
+						<li>/</li>
+						<li>account services </li>
+					</ul><!-- / -->
+				</div><!-- /#breadcrumbs --> 
+				<div class="title prefix_01 clearfix">
+					<h1>payment options</h1>
+				</div>
+			</div><!-- /.grid_5 -->
+		</div><!-- /.container_5 -->
+	</div><!-- /#title-bar -->	
+
+	
+	
+	
+	<div id="pay-online" class="module info clearfix">
+		<div class="container_5">
+			<div class="article clearfix">				
+				<div class="grid_4">
+					<h2 class="prefix_01">pay on-line (one time payment)</h2>	
+					<ul class="suffix_half_col">
+						<li>Electronic funds transfers (EFT) from your checking or savings account is the most convenient way to pay your APS bill or deposit.  account to securely store your ba</li>
+						<li>Register your account to securely store your bank information for  future payments.  account to securely store your ba account to securely store your ba.</li>
+						<li>We'll send you a monthly reminder when your bill is ready. You can even choose to go paperless. Your current and past bills will be available to view or print anytime.</li>
+					</ul>
+					<div class="actions prefix_01">
+						<a href="#" class="btn medium orange">pay now</a>
+						<a href="#" class="btn medium orange">Register</a>
+					</div>
+				</div><!-- /.grid_3 -->
+
+				<div class="grid_1">
+					<div class="round ">
+						<div class="content mid-top">
+							<p class="label medium">paperless billing</p>
+							<p class="label">now available</p>	
+						</div>
+					</div><!-- /.round -->
+				</div><!-- /.grid_1 -->
+			</div><!-- /.article -->
+
+		</div><!-- /.container_5 -->
+	</div><!-- /.module -->
+
+	<div id="auto-pay" class="module info clearfix">
+		<div class="container_5">
+			<div class="article clearfix">				
+				<div class="grid_4">
+					<h2 class="prefix_01">auto pay</h2>	
+					<ul class="suffix_half_col">
+						<li>Sign up for AutoPay and never worry about your APS bill again!</li>
+						<li>Your payment will be deducted from your bank account on the date it is due.</li>
+						<li>We'll send you an e-mail each month that includes the amount and date the deduction will be made. Your bill will be posted online and you can view or print cur</li>
+						<li>Your bill will be posted online and you can view or print current and past bills anytime, securely and easily. Your bill will be posted online and you can view or print cur</li>
+						<li>Plus, you'll save almost $6 a year discount just for being on AutoPay.  And there's no administrative fee for this direct debit program.</li>
+					</ul>
+					<div class="actions prefix_01">
+						<a href="#" class="btn medium orange">sign me up</a>
+					</div>
+				</div><!-- /.grid_4	 -->
+
+				<div class="grid_1">
+					<div class="round">
+						<div class="content mid-top">
+							<p class="label medium">save &#36;6</br>a month</p>
+						</div>
+					</div><!-- /.round -->
+				</div><!-- /.grid_1 -->
+			</div><!-- /.article -->
+
+		</div><!-- /.container_5 -->
+	</div><!-- /.module -->
+
+
+	<div id="pay-by-phone" class="module info clearfix">
+		<div class="container_5">
+			<div class="article clearfix">				
+				<div class="grid_4">
+					<h2 class="prefix_01 suffix_half_col">pay by phone</h2>	
+					<ul class="large-text suffix_half_col">
+						<li class="open-sans">Payment by Electronic Check</li>
+						<li class="open-sans">You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+					</ul>
+
+				</div><!-- /.grid_3 -->
+
+				<div class="grid_1 related-info">
+					<ul class="large-text no-bullets">
+						<li>(602) 371-6555 or</li>
+						<li>(800) 253-9405</li>
+					</ul>
+					
+				</div><!-- /.grid_1 -->
+			</div><!-- /.article -->
+
+			<div class="info extra">
+
+				<div class="article clearfix">
+					<div class="grid_3 suffix_2 ">
+						<h3 class="prefix_02 suffix_half_col">What you need to know</h3>
+						<ul class=" large-text">
+							<li>Payment by Electronic Check</li>
+							<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+							<li>Payment by Electronic Check</li>
+							<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+							<li>Payment by Electronic Check</li>
+							<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+						</ul>
+					</div><!-- /.grid_3 -->
+				</div><!-- /.article -->
+
+			</div><!-- /.info extra -->
+
+
+			<div class="cta">
+				<p>learn more</p>
+				<p><a href="#" class="open" title="learn more"><span>+</span><span class="swap">-</span></a></p>
+			</div>
+
+		</div><!-- /.container_5 -->
+	</div><!-- /.module -->
+
+	<div id="pay-in-person" class="module info clearfix">
+		<div class="container_5">
+			<div class="article clearfix">
+
+				<h2 class="prefix_02 suffix_half_col">pay in person</h2>	
+
+				<div class="grid_2">
+					<p class="prefix_01">lorem ipsum soo do dat</p>	
+					<ul class="suffix_half_col large-text">
+						<li>aps office</li>
+						<li>pay station</li>
+						<li>kiosk</li>
+					</ul>
+				</div><!-- /.grid_2 -->
+
+				<div class="grid_3">
+					<form id="address" class="large-fields prefix_half_col">
+						<label for="address" class="error" generated="true"></label>
+						<input type="text" value="street address" name="address" class="address" />
+						<label for="zip" class="error" generated="true"></label>
+						<input type="text" value="02020" name="zip" class="zip" />
+						<input type="submit" value="submit" class="btn small orange" />
+						<p class="optional">* optional field</p>
+					</form>
+
+					<div id="form-tool-tip">
+			
+						<div class="info address ">
+							<div class="icon"></div><!-- /.icon -->
+							<p><strong>Your address</strong></p>
+							<ul>
+								<li>Address hint 1</li>
+								<li>Address hint 2 </li>
+							</ul>	
+						</div><!-- / -->
+						<div class="info zip hidden">
+							<div class="icon"></div><!-- /.icon -->
+							<p><strong>Your zip</strong></p>
+							<ul>
+								<li>Zip hint 1 </li>
+							</ul>	
+						</div><!-- / -->
+						
+					</div><!-- /#form-tool-tip -->
+				</div><!-- /.grid_3 -->
+
+			</div><!-- /.article -->
+
+			<div class="info extra">
+
+				<div class="article clearfix">
+					<div class="grid_3 suffix_2 ">
+						<h3 class="prefix_02 suffix_half_col">What you need to know</h3>
+						<ul>
+						<li>Payment by Electronic Check</li>
+						<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+						<li>Payment by Electronic Check</li>
+						<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+						<li>Payment by Electronic Check</li>
+						<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+					</ul>
+					</div><!-- /.grid_3 -->
+				</div><!-- /.article -->
+
+			</div><!-- /.info extra -->
+
+
+			<div class="cta">
+				<p>learn more</p>
+				<p><a href="#" class="open grey" title="learn more"><span>+</span><span class="swap">-</span></a></p>
+			</div>
+
+		</div><!-- /.container_5 -->
+	</div><!-- /.module -->
+
+	<div id="pay-by-mail" class="module info clearfix">
+		<div class="container_5">
+			<div class="article clearfix">				
+				<div class="grid_4">
+					<div class="prefix_01 suffix_half_col">
+						<h2>pay by mail</h2>	
+						<p class="large-text open-sans">what’s avaiable from our lorem ipsum dolor sans. aps now offers a suite of sum el id ut idio avaiolor lorem ipsum dolor sans</p>
+					</div>
+				</div><!-- /.grid_4 -->
+
+				<div class="grid_1 related-info">
+					<ul class="no-bullets open-sans">
+						<li>aps</li>
+						<li>po box 2906</li>
+						<li>phoenix, az </li>
+						<li>85062-2906</li>
+					</ul>
+				</div><!-- /.grid_1 -->
+			</div><!-- /.article -->
+
+			<div class="info extra">
+
+				<div class="article clearfix">
+					<div class="grid_3 suffix_2 ">
+						<h3 class="prefix_02 suffix_half_col">What you need to know</h3>
+						<ul class=" large-text">
+							<li>Payment by Electronic Check</li>
+							<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+							<li>Payment by Electronic Check</li>
+							<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+							<li>Payment by Electronic Check</li>
+							<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+						</ul>
+					</div><!-- /.grid_3 -->
+				</div><!-- /.article -->
+
+			</div><!-- /.info extra -->
+
+
+			<div class="cta">
+				<p>learn more</p>
+				<p><a href="#" class="open" title="learn more"><span>+</span><span class="swap">-</span></a></p>
+			</div>
+
+		</div><!-- /.container_5 -->
+	</div><!-- /.module -->
+
+	<div id="gift-checks" class="module info clearfix">
+		<div class="container_5">
+			<div class="article clearfix">				
+				<div class="grid_4">
+					<div class="prefix_01 suffix_half_col">
+						<h2>gift checks</h2>	
+						<p class="open-sans">lorem ipsum dolor sans. aps now offers a suite of sum el id ut idio avaiable from our lorem minu s avaiable from our lorem ipsum dolor. lorem ipsum dolo.</p>
+					</div>
+				</div><!-- /.grid_4 -->
+
+				<div class="grid_1 related-info">
+					<div class="actions">
+						<a href="#" class="btn medium orange">pay now</a>
+					</div>
+				</div><!-- /.grid_1 -->
+			</div><!-- /.article -->
+
+			<div class="info extra">
+
+				<div class="article clearfix">
+					<div class="grid_3 suffix_2 ">
+						<h3 class="prefix_02 suffix_half_col">What you need to know</h3>
+						<ul class=" large-text">
+							<li>Payment by Electronic Check</li>
+							<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+							<li>Payment by Electronic Check</li>
+							<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+							<li>Payment by Electronic Check</li>
+							<li>You can now pay your APS bill from your checking or savings account free of charge, 24-hours-a-day, seven-days-a-week by calling us at</li>
+						</ul>
+					</div><!-- /.grid_3 -->
+				</div><!-- /.article -->
+
+			</div><!-- /.info extra -->
+
+
+			<div class="cta">
+				<p>learn more</p>
+				<p><a href="#" class="open grey" title="learn more"><span>+</span><span class="swap">-</span></a></p>
+			</div>
+
+		</div><!-- /.container_5 -->
+	</div><!-- /.module -->
+
+
+	<div id="payment-methods" class="module info clearfix">
+		<div class="container_5">
+			<div class="grid_three">
+				<div class="prefix_01">
+					<h3>pay all your e-bills for <strong>free</strong></h3>
+					<p class="open-sans">You can use MyCheckFree.com to receiveand pay all yos online at one site -- with NO FEES.</p>
+					<p class="open-sans"><a href="#" title="register your account" class="external">register your account</a></p>					
+				</div><!-- / -->				
+			</div> <!-- /.grid_three -->
+			<div class="grid_three">	
+				<div class="prefix_01">			
+					<h3>pay by credit card</h3>
+					<p class="open-sans">You can use NCO e-Payments to pay by credit/debit  card --veniance of $X.XX FEES</p>
+					<p class="open-sans"><a href="#" title="pay now" class="external">pay now</a></p>
+				</div>
+			</div> <!-- /.grid_three -->
+			<div class="grid_three">	
+				<div class="prefix_01">			
+					<h3>sure pay</h3>
+					<p class="open-sans">Transfer money from your bank account using surepay. Lorem ipsum dolor sans.</p>
+					<p class="open-sans pdf"><a href="#" title="SurePay enrollment form">SurePay enrollment form</a></p>
+				</div>
+			</div> <!-- /.grid_three -->
+		</div><!-- /.container_5 -->
+	</div><!-- /.module -->
+
+	<div id="smart-meter" class="module info clearfix">
+		
+		<div class="container_5">
+			
+			<div class="grid_1">
+				<img src="img/residential/smart-meter.png" alt="">
+			</div><!-- /.grid_1 -->
+			
+			<div class="grid_4">
+				<h2>smart meter consectetur adipisicing</h2>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+			</div>
+			
+		</div><!-- /.container_5 -->
+		
+	</div>
+
+	<div id="footer" class="clearfix">
+
+		<div class="container_5 clearfix">
+
+			<div class="grid_4">
+
+				<div class="footer-nav">
+
+					<a href="#" title="outage center">outage center</a> 
+					 | 
+					<a href="#" title="safety">safety</a>
+					 | 
+					<a href="#" title="construction corner">construction corner</a> 
+					 | 
+					<a href="#" title="customer support">customer support</a>
+
+				</div><!-- /.footer-nav -->
+
+			</div><!-- /.grid_4 -->
+
+			<div class="grid_1" class="language-switcher">
+				<ul class="chevron grey float-right">
+					<li class="language-switcher"><a href="#" title="en espa&ntilde;ol">en espa&ntilde;ol</a></li>
+				</ul>		
+			</div><!-- /.grid_1 -->
+
+		</div><!-- .container_5 -->
+
+		<div class="container_5">	
+			<div class="quick-links clearfix">
+				<div class="grid_1 alpha">
+					<dl>
+						<dt>top residential links</dt>
+						<dd><a href="#" title="">re Illibusdam sum</a></dd>
+						<dd><a href="#" title="">re dolest as ditibus</a></dd>
+						<dd><a href="#" title="">r vendam faceperit enit et</a></dd>
+						<dd><a href="#" title="">asnam liquo qui offi cab or</a></dd>
+						<dd><a href="#" title="">harume arumetur</a></dd>
+						<dd><a href="#" title="">magnihilleni dolupta tibus</a></dd>
+					</dl>
+				</div><!-- /.grid_1 -->
+
+				<div class="grid_1">
+					<dl class="social-rss">
+						<dt>follow us</dt>
+						<dd><a href="#" class="facebook" title="follow us on facebook">facebook</a></dd>
+						<dd><a href="#" class="youtube" title="follow us on youtube">youtube</a></dd>
+						<dd><a href="#" class="twitter" title="follow us on twitter">twitter</a></dd>
+						<dd><a href="#" class="flickr" title="follow us on flickr">flickr</a></dd>
+					</dl>
+				</div><!-- /.grid_1 -->
+
+				<div class="grid_1">
+					<dl>
+						<dt>top business links</dt>
+						<dd><a href="#" title="">re Illibusdam sum</a></dd>
+						<dd><a href="#" title="">re dolest as ditibus</a></dd>
+						<dd><a href="#" title="">r vendam faceperit enit et</a></dd>
+						<dd><a href="#" title="">asnam liquo qui offi cab or</a></dd>
+						<dd><a href="#" title="">harume arumetur</a></dd>
+						<dd><a href="#" title="">magnihilleni dolupta tibus</a></dd>
+					</dl>
+				</div><!-- /.grid_1 -->
+
+
+				<div class="grid_1">
+					<dl>
+						<dt>community &amp; environment</dt>
+						<dd><a href="#" title="">re Illibusdam sum</a></dd>
+						<dd><a href="#" title="">re dolest as ditibus</a></dd>
+						<dd><a href="#" title="">r vendam faceperit enit et</a></dd>
+						<dd><a href="#" title="">asnam liquo qui offi cab or</a></dd>
+						<dd><a href="#" title="">harume arumetur</a></dd>
+						<dd><a href="#" title="">magnihilleni dolupta tibus</a></dd>
+					</dl>
+				</div><!-- /.grid_1 -->
+
+				<div class="grid_1 omega">
+					<dl>
+						<dt>our company</dt>
+						<dd><a href="#" title="about us">about us</a></dd>
+						<dd><a href="#" title="newsroom">newsroom</a></dd>
+						<dd><a href="#" title="careers">careers</a></dd>
+						<dd><a href="#" title="doing business with us">doing business with us</a></dd>
+						<dd><a href="#" title="rates &amp; regulations">rates &amp; regulations</a></dd>
+						<dd><a href="#" title="investor relations">investor relations</a></dd>
+					</dl>
+				</div><!-- /.grid_1 -->
+			</div><!-- /.quick-links -->
+		</div><!-- /.container_5 -->
+
+		<div class="container_5 clearfix">
+
+			<div class="grid_4">
+				<a href="#" title="my account">my account</a> 
+				 | 
+				<a href="#" title="residential">residential</a>
+				 | 
+				<a href="#" title="business">business</a> 
+				 | 
+				<a href="#" title="community &amp; environment">community &amp; environment</a>
+				 |
+				<a href="#" title="our company">our company</a>
+			</div><!-- /.grid_4 -->
+
+			<div class="grid_1">
+				<div class="float-right">
+					<a href="#" title="site map">site map</a>
+				 	|
+					<a href="#" title="service areas">service areas</a>
+				</div>
+			</div><!-- /.grid_1 -->
+
+		</div><!-- .container_5 -->
+
+		<div class="container_5 clearfix">
+			<div class="grid_5">
+				<div  id="info-quote">
+					<blockquote>by the way, did you know: we were the first to use solar power traffic lights.</blockquote>
+					<img src="img/aps-logo-grey.png" alt="" />
+				</div><!-- /#info-quote -->
+			</div><!-- /.grid_5 -->
+		</div><!-- .container_5 -->	
+
+
+		<div class="container_5 clearfix" id="legal">
+
+			<div class="grid_3">
+				<p>Copyright © 2012 APS. All rights reserved</p>
+			</div><!-- /.grid_3 -->
+
+			<div class="grid_2">
+				<ul class="chevron grey float-right">
+					<li><a href="#" title="privacy policy">privacy policy</a></li>
+					<li><a href="#" title="terms &amp; conditions">terms &amp; conditions</a></li>
+				</ul>
+			</div><!-- /.grid_3 -->
+		</div><!-- /#legal -->		
+	</div><!-- /#footer -->
+	
+	<script src="js/libs/jquery-1.7.1.min.js"></script>
+	<script src="js/libs/jquery.colorbox.js"></script>
+	<script src="js/libs/jquery.validate.min.js"></script>
+	<script src="js/libs/jquery.uniform.min.js"></script>
+	<script src="js/global.js"></script>
+	<script src="js/residential.js"></script>
+	<script src="js/hero-new.js"></script>
+	
+	
+	<script type="text/javascript">
+			$(document).ready(function () {
+				APS.RES.initPayInPerson();
+			})
+	</script>
+	
+	
+</body>
+</html>

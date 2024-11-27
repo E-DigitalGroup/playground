@@ -1,0 +1,138 @@
+/****************************** Hero *************************************************/
+#hero {
+	height : 300px;
+	background : #999;
+	color : #fff;
+	position : relative;
+	background : transparent;
+	overflow : hidden;
+}
+#hero-controls {
+	display : none;
+}
+.arrow-left, .arrow-right {
+  background: transparent url(../img/icons/hero-controls.png) no-repeat -25px 116px;
+  height: 300px;
+  width: 100px;
+  text-indent: -999em;
+  float : left;
+  z-index: 50;
+	border : 0;
+	top : 145px;
+	cursor : pointer;
+	position : absolute;
+}
+.arrow-left { left: 0}
+
+.arrow-right {
+  background-position : -274px 116px;
+  right: 0
+}
+.hero-indicators {
+	position : absolute;
+	right : 20px;
+	bottom : 20px;
+	z-index : 3;
+}
+.hero-indicators  ul,
+.hero-indicators .control {
+	background : #000;
+	background : rgba(0,0,0,0.8);
+	padding : 8px 5px;
+	border-radius : 3px;
+	float: left;
+	margin-left : 3px;
+
+}
+.hero-indicators .control {
+	padding : 5px;
+	height : 13px;
+}
+.hero-indicators .control div {
+	display: block;
+	padding-top : 3px;
+}
+.hero-indicators .control a{
+	width : 10px;
+	height : 8px;
+	cursor: pointer;
+	background: transparent url(../img/icons/hero-controls.png) no-repeat -9px -356px;
+}
+.hero-indicators .control .play {
+	display: none;
+	padding-top : 0px;
+}
+.hero-indicators .control .play a{
+	height : 12px;
+	background-position: -7px -372px;
+}
+.hero-indicators li {
+	float : left;
+	display : block;
+	padding : 0 2px;
+	margin : 0;
+	width : 9px;
+	height : 8px;
+	list-style-type : none;
+	/*cursor : pointer;*/
+  background: transparent url(../img/icons/hero-controls.png) no-repeat -32px -357px;
+}
+.hero-indicators li.active {
+	background-position : -45px -357px;
+}
+.hero-wrapper {
+  width: 930px;
+  height: 300px;
+  position: relative;
+	margin : 0 auto;
+	padding: 0 10px 0 20px;
+}
+.hero-mask {
+	width: 2700px;
+	margin: 0 auto;
+	background: transparent url(../img/residential/hero/hero-mask.png) 50% 0 no-repeat;
+	height: 300px;
+	z-index: 2;
+	position: absolute;
+	left: -865px;
+	top: 0px;
+}
+.hero-slider {
+	width : 50000px;
+	overflow : scroll;/* allows user to scroll images if JS disabled */
+}
+.hero-image {
+	float : left;
+}
+div.headline {
+  position: absolute;
+  background: transparent url(../img/residential/hero/text-content-bgs.png) 0 0 no-repeat;
+  z-index: 49;
+  left: 0px;
+  top: 70px;
+  height: 121px;
+  padding: 20px 10px 20px 20px;
+  width: 351px;
+  height : 115px;
+  overflow: hidden;
+}
+div.headline.blue{
+	background-position : 0 -200px;
+}
+div.headline-content {
+  height: 153px;
+}
+div.headline-header {
+  width: 350px;
+	padding-left : 30px;
+  float: right;
+}
+div.headline-header h1 {
+  font-size : 30px;
+	line-height : 1em;
+	margin-bottom : 10px;
+	font-weight: 600;
+}
+div.headline-header p{
+	font-size : 11px;
+}

@@ -1,0 +1,10 @@
+.nav-tabs {
+  border-bottom: 2px solid $primary;
+
+  .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
+    background-color: $primary;
+    color: $black;
+    border-color: $primary;
+  }
+}

@@ -1,0 +1,75 @@
+/****************************** Hero *************************************************/
+#hero {
+	height : 300px;
+	background : #999;
+	color : #fff;
+	position : relative;
+	background : transparent;
+}
+.arrow-left, .arrow-right {
+  background: transparent url(../img/icons/icons.png) no-repeat -24px -341px;
+  height: 40px;
+  width: 27px;
+  text-indent: -3000px;
+  float : left;
+  z-index: 50;
+}
+.arrow-right {
+  background: transparent url(../img/icons/icons.png) no-repeat -66px -341px;
+  float : right;
+}
+.hero_wrapper {
+  z-index: 0;
+  width: 960px;
+  height: 300px;
+  position: relative;
+	margin : 0 auto;
+}
+.hero-mask {
+	position : absolute;
+	top : 0;
+	left : 0;
+}
+.gallery {
+	width : 2790px;
+	position : absolute;
+	left : 0;
+	top : 0;
+}
+.hero_feature {
+	position : absolute;
+	width : 930px;
+  left : 10px;
+  top : 0;
+}
+#hero-controls {
+  /*margin : -180px auto 0 auto;*/
+}
+ div.headline {
+  position: absolute;
+  background: transparent url(../img/residential/hero/text-content-bgs.png) 0 0 no-repeat;
+  z-index: 50;
+  left: 0px;
+  top: 70px;
+  height: 121px;
+  padding: 20px 10px 20px 20px;
+  width: 351px;
+  height : 115px;
+  overflow: hidden;
+}
+ div.headline.blue{
+	background: transparent url(../img/residential/hero/text-content-bgs-blue.png) 0 0 no-repeat;
+}
+div.headline-content {
+  height: 153px;
+}
+div.headline-header {
+  width: 350px;
+	padding-right : 30px;
+  float: right;
+}
+div.headline-header h1 {
+  font-size : 40px;
+	line-height : 1em;
+	margin-bottom : 10px;
+}

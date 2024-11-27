@@ -1,0 +1,52 @@
+.card {
+
+  z-index: 0;
+  width: 100%;
+  position: relative;
+  background-color: $black;
+  border: 1px solid rgba(255, 255, 255, .1);
+
+  .card-body {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 0;
+    padding: 20px 30px 20px 30px;
+  }
+
+  .card-footer {
+    position: relative;
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    background-color: $darken;
+    z-index: 0;
+  }
+
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: $primary;
+
+    a {
+      color: $white;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $primary;
+      }
+    }
+  }
+
+  .card-text {
+    color: $white;
+  }
+
+  .btn:hover {
+    background-color: $light;
+    color: $dark;
+    border: none;
+  }
+
+}

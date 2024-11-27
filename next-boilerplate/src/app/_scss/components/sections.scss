@@ -1,0 +1,159 @@
+.ftco-section {
+	padding: 4em 0;
+	position: relative;
+	width: 100%;
+	// background: linear-gradient(45deg,
+	// 		$tertiary 5%,
+	// 		$primary 96%,
+	// 		$primary 1%);
+
+	@include media-breakpoint-up(md) {
+		padding: 6em 0;
+	}
+
+	@include media-breakpoint-up(xl) {
+		padding: 10em 0;
+	}
+
+
+
+	&.ftco-skinny {
+		padding: 5em 0;
+	}
+
+	&.ftco-no-pt {
+		padding-top: 0 !important;
+	}
+
+	&.ftco-no-pb {
+		padding-bottom: 0 !important;
+	}
+
+	&.ftco-bg-dark {
+		background: $dark
+	}
+
+	&.ftco-bg-black {
+		background: $black;
+	}
+
+	&.ftco-border-top {
+		border-top: 1px solid $divider;
+	}
+
+	&:nth-child(even) {
+		background-color: $tertiary;
+		//background: linear-gradient($primary, $tertiary);
+		// background: linear-gradient(45deg,
+		// 		$primary 0%,
+		// 		$tertiary 60%);
+	}
+
+	// &:nth-child(3n) {
+	// 	background-color: $darken;
+	// }
+
+	// &:nth-child(2n) {
+	// 	background-color: $secondary;
+	// }
+}
+
+.ftco-section-hero {
+
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	@include media-breakpoint-up(lg) {
+		margin-top: -80px;
+	}
+
+
+	.hero-ctas {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		@include media-breakpoint-up(md) {
+			flex-direction: row;
+			margin: auto;
+		}
+
+		.btn {
+			margin: 10px;
+		}
+	}
+}
+
+.ftco-trust-bar {
+	padding: 3rem 0;
+	background-color: $primary;
+}
+
+.ftco-section-subnav {
+	margin-top: 50px;
+
+	.btn {
+		margin-bottom: 10px;
+		margin-right: 10px;
+
+		@include media-breakpoint-up(md) {
+			margin-bottom: 0px;
+		}
+	}
+}
+
+.ftco-section-graph {
+	background: $darken !important;
+
+	&:nth-of-type(1) {
+		border-top: 0;
+	}
+
+	&+.ftco-section-graph {
+		@extend .ftco-border-top;
+	}
+
+}
+
+.ftco-section-technologies {
+	.heading-section {
+		margin-bottom: 50px;
+	}
+
+	.row:nth-child(even) {
+		@include media-breakpoint-up(md) {
+			margin: 0 20px
+		}
+
+		@include media-breakpoint-up(xl) {
+			margin: 0 40px
+		}
+
+	}
+
+
+	.tech-list {
+		margin-bottom: 40px;
+		padding: 0 20px;
+
+		@include media-breakpoint-up(lg) {
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	h4 {
+		margin-bottom: 20px;
+	}
+
+	.icon {
+		color: $primary;
+		margin-right: 10px;
+	}
+
+	.name {
+		color: $light;
+	}
+}

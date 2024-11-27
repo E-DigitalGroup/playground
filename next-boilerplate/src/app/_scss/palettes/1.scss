@@ -1,0 +1,25 @@
+$primary: #aaaaaa;
+$secondary: #032f40;
+$darken: hsl(225, 6%, 12%);
+$light: #aaaaaa;
+$white: #fff;
+$black: #000;
+$dark: #1d1e21;
+$tertiary: #3fd4f5;
+$danger: #ff4c4c;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$body: #dad8d8; // Default text color
+$colors: (
+  "primary": $primary,
+  "dark": $dark,
+  "light": $light,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "danger": $danger,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "body": $body,
+);

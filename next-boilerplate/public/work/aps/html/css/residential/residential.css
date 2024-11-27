@@ -1,0 +1,614 @@
+/*****************************  Title bar ************************************/
+#title-bar {
+	width: 100%;
+	padding: 25px 0px 0px 0px;
+	height : 80px;
+	background : transparent url(../../img/residential/title-bar.png)  50% 0;
+}
+#title-bar .title {
+	margin-top: 10px;
+	color : #fff;
+}
+#title-bar .title h1 {
+	font-size:40px;
+	line-height : 1em;
+	font-weight : 600;
+}
+#breadcrumbs ul{
+	margin : 0;
+	padding : 0;
+}
+#breadcrumbs li {
+	float : left;
+	margin: 0px;
+	color: #fff;
+	padding : 0 9px 0 0 ;
+	line-height : 1em;
+	list-style-type: none;
+}
+#breadcrumbs li a {
+	color : #fff;
+	padding : 0 0 0 10px;
+	background : transparent url(../../img/icons/arrow-right-white-small.png) 0 5px no-repeat;
+}
+
+/*****************************  Section Navigation ************************************/
+#section-nav-parent {
+	position: relative;
+}
+#section-nav {
+	background : #fff;
+	border-radius: 2px;
+	padding: 20px 15px;
+	position: absolute;
+	top : 0px;
+	left : 0px;
+	z-index: 10;
+}
+#section-nav li{
+	list-style-type: none;
+	margin-bottom: 15px;
+	font-size : 11px;
+}
+#section-nav li a:hover {
+	color : #F63;
+}
+
+/* 
+This adds highlight to correct element 
+Add additional pages here
+*/
+body.ac-upgrade li#ac-upgrade a{
+	color : #000;
+	font-weight: 700;
+}
+
+/*****************************  Notifications bar ************************************/
+#notifications{
+	background : #ebebeb;
+	height : 40px;
+}
+#notifications p {
+	float : left;
+	font-size : 11px;
+	color : #666666;
+	line-height : 22px;
+
+}
+#notifications p strong {
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	background: #999;
+	height: 30px;
+	float: left;
+	padding: 10px 10px 0 10px;
+} 
+#notifications p.message {
+	padding-top : 10px;
+	padding-left : 15px;
+}
+#notifications p.updated {
+	float : right;
+	padding-top : 10px;
+	padding-right : 10px;
+}
+
+/*****************************  Prominent Messaging ************************************/
+.prominent-messaging{
+	height: 209px;
+	padding-top: 30px;
+}
+
+/*****************************  Info Sections  ************************************/
+.module.info {
+	padding-top : 30px;
+	padding-bottom : 30px;
+	position : relative;
+}
+#make-a-payment .btn,
+#register-for-account .btn {
+	margin : 25px 0 35px 0;
+}
+.info.extra {
+	display : none;
+}
+.home-page .article {
+	margin-top : 20px;
+}
+
+
+/* Quick Links */
+#quick-linnks ul.chevron {
+	margin-top : 15px;
+}
+#quick-linnks ul.chevron li {
+	margin-bottom : 20px;
+}
+#quick-links.module.info {
+	padding : 0 0 20px 0;
+}
+/* Popular Topics */
+#popular-topics {
+	background : #ebe9e9;
+}
+
+/* Smart Meter */
+#smart-meter {
+	background: #21a250; /* for non-css3 browsers */
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6ab64c', endColorstr='#21a250'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#6ab64c), to(#21a250)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #6ab64c,  #21a250); /* for firefox 3.6+ */ 
+	padding : 10px 0;
+}
+#smart-meter h2,
+#smart-meter h3 {
+	color : #fff;	
+	margin-bottom  : 10px;
+}
+#smart-meter h2 {
+	margin : 50px 0 0 0;
+}
+
+
+/* Open Icons */
+.module.info .cta {
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align : center;
+	position: relative;
+	bottom: -30px;
+}
+.ac-upgrade .module.info .cta {
+	bottom : 0;
+}
+.module.info .cta p {
+	margin-bottom : 5px;
+}
+.module.info .cta .swap {
+	display: none;
+}
+.module.info .cta .open {
+	margin: 0;
+	line-height: 2em;
+	position: absolute;
+	left: 49%;
+	bottom: -12px;
+	background: transparent url(../../img/icons/icons.png) -10px -234px no-repeat;
+	height: 20px;
+	z-index: 10;
+	width: 29px;
+	height: 30px;
+	color: #F63;
+	font-weight: 700;
+	font-size: 16px;
+	text-decoration: none;
+}
+.module.info .cta .open.grey {
+	background-position: -9px -173px;
+}
+.module.info .cta .open.green {
+	background-position: -10px -303px;
+}
+.module.info .cta .open.blue {
+	background-position: -11px -360px;
+}
+
+
+
+/*****************************  Registration Flow  ************************************/
+
+/* Text Sizer */
+.text-size-switcher {
+	position: absolute;
+	left: 42px;
+	top : 22px;
+	font-weight : 600;
+	font-family : 'Open Sans', sans-serif;
+}
+.text-size-switcher a {
+	border : 1px solid #cecece;
+	border-top : 2px solid #cecece;
+	background : #eee;
+	line-height : 1em;
+	position: absolute;
+	bottom : 0;
+	padding : 0.2em 0.25em;
+	font-family : 'Open Sans', sans-serif;
+}
+.text-size-switcher a.small {
+	font-size : 10px;
+	left : 65px;
+}
+.text-size-switcher a.medium {
+	font-size : 13px;
+	left : 85px;
+}
+.text-size-switcher a.large {
+	font-size : 18px;
+	left : 108px;
+}
+.text-size-switcher a.current {
+	background : #d7d7d7;
+	border : 1px solid #bababa;
+}
+
+/* Form Elements */
+.residential .large-fields #name-options {
+	padding-top : 10px
+}
+.residential .large-fields #name-options ul {
+	float : left;
+	margin : 0 20px 0 0;
+}
+.residential .large-fields #name-options a {
+	color : #ff0099;
+}
+
+.residential .large-fields .divider.bottom {
+	margin-bottom : 30px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.residential .large-fields label {
+	float: right;
+	color: #999;
+	font-size : 18px;
+	margin-top : 12px;
+	text-align: right;
+	line-height : 20px;
+	font-weight : 600;
+	font-family : 'Open Sans', sans-serif;
+}
+.residential .large-fields input[type=text].error,
+.residential .large-fields input[type=password].error,
+.residential .large-fields input[type=radio].error
+.residential .large-fields input[type=checkbox].error,
+.residential .large-fields select.error { 
+	border : 1px solid #FF0000;
+}
+
+.residential .large-fields input[type=text]:focus,
+.residential .large-fields input[type=password]:focus,
+.residential .large-fields input[type=radio]:focus,
+.residential .large-fields input[type=checkbox]:focus,
+.residential .large-fields select:focus { 
+	border : 1px solid #999;
+	outline: none;
+}
+
+
+.residential .large-fields label.error {
+	color : #ff0000;
+	font-size : 12px;
+	float : left;
+}
+.residential .large-fields label.two-lines{
+	margin-top : 3px;
+}
+.residential .large-fields label.active {
+	color : #49a942;
+}
+.residential .large-fields input[type=text],
+.residential .large-fields input[type=password] {
+	background : #eeeeee;
+	color : #b5b5b5;
+	border : 1px solid #c8c8c8;
+	line-height : 18px;
+	padding : 10px 5px;
+	width : 268px;
+	float : left;
+	font-size : 14px;
+	font-family : 'Open Sans', sans-serif;
+}
+.residential .large-fields input[name=reminder-answer] {
+	width : 350px;
+}
+.residential .large-fields select {
+	background : #eeeeee;
+	color : #b5b5b5;
+	border : 1px solid #c8c8c8;
+	height : 45px;
+	width : 364px;
+	font-size : 14px;
+	font-family : 'Open Sans', sans-serif;
+}
+.residential .large-fields select option {
+	margin : 10px 5px;
+	
+}
+
+/* Form tool tip */
+.residential #form-tool-tip {
+	float : left;
+	width : 162px;	
+	position: relative;
+	background : transparent url(../../img/icons/tool-tip-chevron.png) 0px 0 no-repeat;
+}
+.residential.register #form-tool-tip {
+	padding-left : 40px;	
+	margin: 44px 0 0 -18px;
+}
+.residential #form-tool-tip .indicator {
+	position: absolute;
+	top : 10px;
+	left : -38px;
+	width : 18px;
+	height : 36px;
+	background : transparent url(../../img/icons/form-status-chevron.png) 0px 0px no-repeat;		
+}
+
+ .icon {
+	width : 30px;
+	height : 30px;
+	margin-bottom : 20px;
+	background : transparent url(../../img/residential/register-sprite.png) -10px -100px no-repeat;		
+}
+
+.residential #form-tool-tip ul {
+	margin-left : 20px;
+}
+.residential #form-tool-tip li {
+	font-size : 11px;
+}
+
+/* Page Elements*/
+.residential.register .actions {
+	padding-top : 15px;
+}
+
+.residential.register .actions h2 {
+	float : left;
+	margin: 0px;
+	font-size : 40px;
+}
+
+.residential.register .actions span.account {
+	float : left;
+	position: absolute;
+	left : 275px;
+	bottom : 5px;
+	font-size : 12px;
+	font-family : 'Open Sans', sans-serif;
+}
+
+
+.residential .steps {
+	float : left;
+	line-height : 20px;
+	margin : 35px 0;
+	font-family : 'Open Sans', sans-serif;
+}
+.residential .steps li {
+	float : left;
+	color: #999;
+	font-size : 14px;
+	margin : 0 20px 0 0;
+	background : transparent url(../../img/residential/register-sprite.png) 100px 100px no-repeat;
+}
+.residential .steps li.current {
+	font-weight : 700;
+	padding-left : 45px;
+	background-position : -10px 0px;
+}
+.residential .steps li.future {
+	padding-left : 45px;
+	background-position : -10px -50px;
+}
+
+.residential.register #create-account {
+	margin : 20px 0 7px 0;
+	width : 758px;
+	float : left;
+}
+.residential.register .vertical-line {
+	border-right : 1px solid #e0e0e0;
+}
+.residential.register #create-account fieldset {
+	clear : both;
+}
+.residential .form-set {
+	float : left;
+	margin : 0 0 28px 0;
+}
+.residential.register a.check {
+	position: absolute;
+	right : -10px;
+	top : 10px;
+}
+.residential.register select {
+	margin-left: 10px;
+}
+
+.residential.register .form-set.reminder {
+	margin-bottom : 50px;
+}
+.residential.register .paperless .form-set{
+	margin-bottom : 0;
+}
+.residential.register .paperless label {
+	margin-top : 10px;
+}
+.residential.register .paperless ul {
+	padding-top : 10px;
+}
+.residential.register .paperless li {
+	font-size : 11px;
+	letter-spacing : -0.05em;
+	margin-bottom: 5px;
+	clear: both;
+	height : 23px;
+}
+
+.residential.register .paperless li * {
+	line-height: 12px;
+	float : left;
+	margin-bottom: 5px;
+}
+.residential.register .paperless li p {
+	margin : 3px 0 0 5px;
+}
+
+.residential.register fieldset.form-controls {
+	margin-top : 55px;
+}
+.residential.register input[type=submit] {
+	margin-left : 7px;
+}
+.residential.register .verisign {
+	margin-bottom: 20px;
+}
+.residential.register .verisign ul {
+	margin-top : 10px;
+}
+.residential.register .verisign-badge {
+	float: right;
+	width : 69px;
+	height : 50px;
+	background : transparent url(../../img/residential/register-sprite.png) -10px -355px no-repeat;	
+}
+
+
+
+/*****************************  Payment Options  ************************************/
+.residential.payment-options #title-bar {
+	height : 75px;
+	background-image : url(../../img/residential/title-bar-red.png);
+}
+.residential.payment-options #title-bar h1 {
+	line-height : 0.5em;
+}
+.residential.payment-options .module ul {
+	padding-left : 30px;
+}
+
+.residential.payment-options .actions {
+	margin : 17px 0 10px;
+	float : left;
+}
+.residential.payment-options .actions a{
+	padding-right : 20px;
+}
+.residential.payment-options .module {
+	padding-top : 20px;
+}
+.residential.payment-options #pay-online .round {
+	background : transparent url(../../img/residential/round-payment-options.png) 0px -2px no-repeat;
+}
+.residential.payment-options .round {
+	margin-top : 15px;
+}
+.residential.payment-options .round .label {
+	margin-top : 0;
+	line-height : 1em;
+}
+.residential.payment-options #pay-online {
+	padding-bottom : 25px;
+}
+.residential.payment-options #pay-online .round .label {
+	color : #39a450;	
+}
+
+.residential.payment-options #auto-pay,
+.residential.payment-options #pay-in-person ,
+.residential.payment-options #gift-checks {
+	background : #ebebeb;
+}
+
+.residential.payment-options #auto-pay .round {
+	background : transparent url(../../img/residential/round-payment-options.png) 2px -182px no-repeat;
+}
+.residential.payment-options #pay-online li{
+	margin-bottom : 17px;
+}
+.residential.payment-options #auto-pay li {
+	margin-bottom : 10px;
+
+}
+.residential.payment-options #pay-by-phone .related-info {
+	margin-top : 75px;
+}
+.residential.payment-options #pay-by-phone .related-info ul,
+.residential.payment-options #pay-by-mail .related-info ul {
+	padding-left : 0;	
+}
+.residential.payment-options #pay-by-mail .related-info li {
+	font-size : 14px;
+
+	margin : 0;
+}
+.residential.payment-options #pay-by-mail .related-info {
+	margin-top : 40px;
+}
+
+.residential.payment-options #gift-checks .related-info {
+	margin-top : 30px;
+}
+.residential.payment-options #pay-in-person {
+	padding-bottom : 0;
+}
+.residential.payment-options #pay-in-person .cta {
+	bottom : 0;
+}
+
+.residential.payment-options #address{
+	width : 280px;
+}
+.residential.payment-options #pay-in-person .error {
+	margin : 0;
+}
+.residential.payment-options #pay-in-person input.address {
+	width : 230px;
+	margin-bottom : 20px;
+	background : #fff;
+}
+.residential.payment-options #pay-in-person input.zip {
+	width : 130px;
+	margin-bottom : 10px;
+	background : #fff;
+	clear : left;
+}
+.residential.payment-options #pay-in-person input[type=submit] {
+	margin : 10px 0 0 10px;
+	width : 85px;
+}
+.residential.payment-options #pay-in-person p.optional {
+	clear : both;
+}
+.residential.payment-options #pay-in-person {
+	background : #f0f0f0;
+}
+
+.residential.payment-options #pay-in-person .cta .open {
+	background-position : -10px -415px;
+}
+.residential.payment-options #pay-in-person form {
+	border-right: 1px solid #dadada;
+	margin-top : -10px;
+}
+.residential.payment-options #form-tool-tip {
+	padding : 0 0 0 40px;
+	position: absolute;
+	left : 354px;
+	top : -4px;
+	background : transparent url(../../img/icons/tool-tip-chevron-grey.png) 0 0 no-repeat;
+}
+
+.residential.payment-options #pay-in-person #form-tool-tip ul {
+	padding: 0px;
+}
+.residential.payment-options #payment-methods {
+	padding-top : 35px;	
+}
+.residential.payment-options #payment-methods h3 {
+	font-weight : 400;
+	margin-bottom : 30px;
+}
+.residential.payment-options #payment-methods p {
+	margin : 20px 0;
+}
+.residential.payment-options #form-tool-tip .indicator {
+	top : -5px;
+}

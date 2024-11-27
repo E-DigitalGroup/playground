@@ -1,0 +1,411 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>APS :: Residential</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<!-- fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- global styles -->
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/global.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/hero.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+	<!-- libraries -->
+	<link rel="stylesheet" href="css/colorbox.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+	<!-- section styles -->
+	<link rel="stylesheet" href="css/residential/residential.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+	<!-- authenticated styles -->
+	<link rel="stylesheet" href="css/residential/my-account.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+	<!-- sub section styles -->
+	<link rel="stylesheet" href="css/residential/save-money-energy/section.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+	<!-- custom form styles -->
+	<link rel="stylesheet" href="css/uniform.residential.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+</head>
+<!-- classes convention on body tag
+
+	main section 
+	sub-section 
+	sub-sub-section 
+	sub-sub-section page 
+	
+	This will allow you to hang section specific styling to pages and navigation elements
+-->
+<body class="residential register">
+	
+	<div id="global-header">
+		<div class="global-header-top">			
+		</div><!-- /.global-header-top -->
+
+		<div class="container_5" id="logo">	
+			<div class="grid_3  alpha omega prefix_02">
+				<a href="Non-Auth/residential/" title="Home"><img src="img/aps-logo.gif" alt="APS Logo" /></a>
+			</div><!-- /.grid_3 -->
+		</div><!-- /.container_5 -->
+	</div><!-- /#global-header -->
+	
+
+	<div class="actions clearfix">
+		<div class="container_5">
+			<div class="grid_4">
+				<h2 class="prefix_01">registration</h2>
+				<span class="account">APS account #123456789</span>
+			</div>
+			<div class="grid_1">
+				<div class="text-size-switcher">
+					<span>text size:</span>
+					<a href="#" class="small">A</a>
+					<a href="#" class="medium">A</a>
+					<a href="#" class="large">A</a>
+				</div>
+			</div>
+			
+		</div><!-- /.container_5 -->
+	</div><!-- .actions -->
+
+	<div class="container_5 clearfix">
+		<div class="grid_5">
+			<div class="steps prefix_01">
+				<ol class="no-bullets">
+					<li class="done">link and validate your account</li>
+					<li class="current">create account</li>
+					<li class="future">confirmation</li>
+				</ol>
+			</div>
+		</div><!-- /.grid_5 -->
+	</div><!-- /.container_5 -->
+
+	<div class="container_5 clearfix">
+		<div class="grid_3 suffix_2">
+			<div class="form-info prefix_01">
+				<p>Now that your account is validated you can now create your account. Once complete you'll be able to access your account balance, usage history, prior bills and so much more. </p>
+			</div>
+		</div><!-- /.grid_5 -->
+	</div><!-- /.container_5 -->
+
+
+	<div class="container_5 clearfix">
+			
+		<form id="create-account" class="large-fields">
+
+			<div class="vertical-line">
+
+				<fieldset class="clearfix">
+					<legend class="hidden">username and password</legend>
+
+					<div class="form-set">
+						<div class="grid_3 prefix_1 error-msg">
+							<label for="username" class="error" generated="true"></label>
+						</div><!-- /used to show error message - for attribute must match form field -->
+						<div class="grid_1 ">
+							<label for="username" class="main active">user name</label>
+						</div>
+						<div class="grid_2">
+							<input type="text" name="username" id="username" />	
+							<a href="#" title="continue" class="btn small orange check">check</a>
+						</div>
+						<div id="name-options" class="grid_2 prefix_1 hidden">
+							<p><strong>Here are some options</strong></p>
+							<ul class="no-bullets">
+								<li><a href="#" class="use-name">option 1</a></li>
+								<li><a href="#" class="use-name">option 2</a></li>
+							</ul>
+							<ul class="no-bullets">
+								<li><a href="#" class="use-name">option 3</a></li>
+								<li><a href="#" class="use-name">option 4</a></li>
+							</ul>
+						</div><!-- / -->
+					</div>
+					
+
+
+					<div class="form-set">
+						<div class="grid_3 prefix_1 error-msg">
+							<label for="password" class="error" generated="true"></label>
+						</div><!-- /used to show error message - for attribute must match form field -->
+						<div class="grid_1">
+							<label for="password" class="main">password</label>
+						</div>
+						<div class="grid_2">
+							<input type="password" name="password" id="password" />	
+						</div>
+					</div>
+
+					<div class="form-set">
+						<div class="grid_3 prefix_1 error-msg">
+							<label for="passwordconfirm" class="error" generated="true"></label>
+						</div><!-- /used to show error message - for attribute must match form field -->
+						<div class="grid_1">
+							<label for="passwordconfirm" class="main">confirm password</label>
+						</div>
+						<div class="grid_2">
+							<input type="password" name="passwordconfirm" id="passwordconfirm" />	
+						</div>
+					</div>
+
+				</fieldset>	
+
+				<div class="grid_3 divider bottom"></div>
+
+				<fieldset class="clearfix">
+					<legend class="hidden">email address</legend>
+
+					<div class="form-set">
+						<div class="grid_3 prefix_1 error-msg">
+							<label for="email" class="error" generated="true"></label>
+						</div><!-- /used to show error message - for attribute must match form field -->
+						<div class="grid_1">
+							<label for="email" class="main">email address</label>
+						</div>
+						<div class="grid_2">
+							<input type="text" name="email" id="email" />	
+						</div>
+					</div>
+
+					<div class="form-set">
+						<div class="grid_3 prefix_1 error-msg">
+							<label for="emailconfirm" class="error" generated="true"></label>
+						</div><!-- /used to show error message - for attribute must match form field -->
+						<div class="grid_1">
+							<label for="emailconfirm" class="two-lines main">confirm email address</label>
+						</div>
+						<div class="grid_2">
+							<input type="text" name="emailconfirm" />	
+						</div>
+					</div>
+
+				</fieldset>	
+
+				<div class="grid_3 divider bottom"></div>
+
+				<fieldset class="clearfix">
+					<legend class="hidden">reminder question</legend>
+
+					<div class="form-set">
+						<div class="grid_3 prefix_1 error-msg">
+							<label for="reminderquestion" class="error" generated="true"></label>
+						</div><!-- /used to show error message - for attribute must match form field -->
+						<div class="grid_1">
+							<label for="reminderquestion" class="main">reminder question</label>
+						</div>
+						<div class="grid_2">
+							<select name="reminderquestion">
+								<option value="">Please choose  . . .</option>
+								<option value="a">What's your mother's maiden name?</option>
+								<option value="b">What's your mother's maiden name?</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="form-set reminder">
+						<div class="grid_3 prefix_1 error-msg">
+							<label for="reminderanswer" class="error" generated="true"></label>
+						</div><!-- /used to show error message - for attribute must match form field -->
+						<div class="grid_1">
+							<label for="reminderanswer" class="main">reminder answer</label>
+						</div>
+						<div class="grid_2">
+							<input type="text" name="reminderanswer" />	
+						</div>
+					</div>
+
+				</fieldset>	
+
+
+				<fieldset class="clearfix paperless">
+					<legend class="hidden">sign up for paperless billing</legend>
+
+					<div class="form-set">
+						<div class="grid_3 prefix_1 error-msg">
+							<label for="paperlessbilling" class="error" generated="true"></label>
+						</div><!-- /used to show error message - for attribute must match form field -->
+						<div class="grid_1">
+							<label for="paperlessbilling" class="two-lines main">sign up 	for paperless billing</label>
+						</div>
+						<div class="grid_3">
+							<ul class="no-bullets">
+								<li>
+									<input type="radio" name="paperlessbilling" value="yes" />
+									<p>Yes, I would like a paperless bill with e-mail notification</p>
+								</li>
+								<li>
+									<input type="radio" name="paperlessbilling" value="both" />
+									<p>I would like both a paperless bill and printed paper format </p>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</fieldset>	
+
+			</div><!-- /.vertical-line -->
+
+			<fieldset class="form-controls">
+
+				<div class="form-set">
+					<div class="grid_3 prefix_1">
+						<a href="#" title="back" class="btn">back</a>
+						<input type="submit" value="create account" />
+					</div>
+				</div>
+
+			</fieldset>	
+
+			<div class="grid_3 divider bottom"></div>
+
+		</form>
+
+		<div id="form-tool-tip">
+			
+			<div class="info username ">
+				<div class="icon"></div><!-- /.icon -->
+				<p><strong>Your user name</strong></p>
+				<ul>
+					<li>The user name you select lets you sign in to the aps.com site </li>
+					<li>The user name must be between 6 to 20 characters in length </li>
+				</ul>	
+			</div><!-- / -->
+			<div class="info password hidden">
+				<div class="icon"></div><!-- /.icon -->
+				<p><strong>Your password</strong></p>
+				<ul>
+					<li>The user name you select lets you sign in to the aps.com site </li>
+					<li>The user name must be between 6 to 20 characters in length </li>
+				</ul>	
+			</div><!-- / -->
+			<div class="info passwordconfirm hidden">
+				<div class="icon"></div><!-- /.icon -->
+				<p><strong>Your password confirm</strong></p>
+				<ul>
+					<li>The user name you select lets you sign in to the aps.com site </li>
+					<li>The user name must be between 6 to 20 characters in length </li>
+				</ul>	
+			</div><!-- / -->
+			<div class="info email hidden">
+				<div class="icon"></div><!-- /.icon -->
+				<p><strong>Your email address</strong></p>
+				<ul>
+					<li>The user name you select lets you sign in to the aps.com site </li>
+					<li>The user name must be between 6 to 20 characters in length </li>
+				</ul>	
+			</div><!-- / -->
+			<div class="info emailconfirm hidden">
+				<div class="icon"></div><!-- /.icon -->
+				<p><strong>Your email confirm</strong></p>
+				<ul>
+					<li>The user name you select lets you sign in to the aps.com site </li>
+					<li>The user name must be between 6 to 20 characters in length </li>
+				</ul>	
+			</div><!-- / -->
+			<div class="info reminderquestion hidden">
+				<div class="icon"></div><!-- /.icon -->
+				<p><strong>Your reminder question</strong></p>
+				<ul>
+					<li>The user name you select lets you sign in to the aps.com site </li>
+					<li>The user name must be between 6 to 20 characters in length </li>
+				</ul>	
+			</div><!-- / -->
+			<div class="info reminderanswer hidden">
+				<div class="icon"></div><!-- /.icon -->
+				<p><strong>Your reminder answer</strong></p>
+				<ul>
+					<li>The user name you select lets you sign in to the aps.com site </li>
+					<li>The user name must be between 6 to 20 characters in length </li>
+				</ul>	
+			</div><!-- / -->
+			
+		</div><!-- /#form-tool-tip -->
+
+	</div><!-- /.container_5 -->
+	
+
+	<div class="container_5 clearfix verisign">
+			<div class="grid_1 prefix_1">
+				<ul class="chevron orange">
+					<li ><a href="#"  title="privacy policy">privacy policy</a></li>
+				</ul><!-- / -->
+			</div>
+			<div class="grid_1">
+				<span class="verisign-badge ir">Verisign Badge</span>
+			</div>
+	</div><!-- /.container_5 -->
+
+	
+	
+	<div id="footer" class="simple clearfix">
+
+		<div class="container_5 clearfix">
+
+			<div class="grid_4 alpha omega prefix_02">
+				<a href="#" title="my account">my account</a> 
+				 | 
+				<a href="#" title="residential">residential</a>
+				 | 
+				<a href="#" title="business">business</a> 
+				 | 
+				<a href="#" title="community &amp; environment">community &amp; environment</a>
+				 |
+				<a href="#" title="our company">our company</a>
+			</div><!-- /.grid_4 -->
+
+			<div class="grid_1">
+				<div class="float-right">
+					<a href="#" title="site map">site map</a>
+				 	|
+					<a href="#" title="service areas">service areas</a>
+				</div>
+			</div><!-- /.grid_1 -->
+
+		</div><!-- .container_5 -->
+
+		<div class="container_5 clearfix">
+			<div class="grid_5 logo">
+				<div class="grid_3 omega">
+					<img src="img/aps-logo-grey.png" alt="" />
+				</div><!-- /.grid_3 -->
+				<div id="legal" class="grid_2 omega">
+					<ul class="chevron grey float-right">
+						<li><a href="#" title="privacy policy">privacy policy</a></li>
+						<li><a href="#" title="terms &amp; conditions">terms &amp; conditions</a></li>
+					</ul>
+				</div><!-- /.grid_2 -->
+			</div><!-- /.grid_5 -->
+		</div><!-- .container_5 -->	
+
+
+		<div class="container_5 clearfix" id="legal">
+
+			<div class="grid_3 alpha omega prefix_02">
+				<p>Copyright © 2012 APS. All rights reserved</p>
+			</div><!-- /.grid_3 -->
+
+		</div><!-- /#legal -->		
+	</div><!-- /#footer -->
+	
+	<script src="js/libs/jquery-1.7.1.min.js"></script>
+	<script src="js/libs/jquery.colorbox.js"></script>
+	<script src="js/libs/jquery.validate.min.js"></script>
+	<script src="js/libs/jquery.uniform.min.js"></script>
+	<script src="js/global.js"></script>
+	<script src="js/residential.js"></script>
+	<script src="js/hero-new.js"></script>
+	
+	
+	<script type="text/javascript">
+			$(document).ready(function () {
+				APS.RES.initRegForm();
+			})
+	</script>
+	
+	
+</body>
+</html>

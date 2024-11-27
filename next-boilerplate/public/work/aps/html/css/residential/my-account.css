@@ -1,0 +1,21 @@
+.auth #global-login p {
+	float : left;
+	margin : 0 10px 0 0;
+	line-height: 2.4em;
+	color : #ccc;
+}
+.auth #global-login .btn.logout {
+	background-position : 0 0;
+}
+.auth #notifications-bar {
+	border-bottom : 1px solid #dcdcdc;
+}
+.notification {
+	padding-left : 30px;
+	line-height : 2em;
+	background : transparent url(../../img/icons/icons.png) -10px -700px no-repeat;
+}
+
+.auth .btn {
+
+}

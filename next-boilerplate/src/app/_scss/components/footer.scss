@@ -1,0 +1,131 @@
+//FOOTER
+
+.ftco-footer {
+
+	color: $footer;
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+	padding-top: 50px;
+
+	.logo {
+		margin-bottom: 15px;
+		text-transform: capitalize !important;
+
+		a {
+			position: relative;
+			text-decoration: none;
+		}
+
+		img {
+			max-width: 150px;
+		}
+	}
+
+	.ftco-footer-widget {
+
+		padding: 20px 10px;
+
+		@include media-breakpoint-up(md) {
+			padding: 5em 0;
+		}
+
+		@include media-breakpoint-up(md) {
+			margin-top: 0;
+		}
+
+
+		h2 {
+			color: $white;
+			margin-bottom: 30px;
+			font-size: 16px;
+			font-weight: 500;
+			font-family: $font-primary;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+
+		ul {
+			margin-bottom: 0;
+
+			li {
+				margin-bottom: 10px;
+
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		a {
+			color: $footer;
+			text-decoration: underline;
+
+			&:hover {
+				color: $white;
+
+				span {
+					color: $white;
+				}
+			}
+		}
+
+		.btn-primary {
+			background: $white !important;
+			border: 2px solid $white !important;
+
+			&:hover {
+				background: $white;
+				border: 2px solid $white !important;
+			}
+		}
+
+		svg {
+			color: $white;
+			font-size: 10px;
+			margin-right: 10px;
+			height: 10px;
+			margin-bottom: 2px;
+		}
+
+		&.contacts {
+			address {
+				color: $footer;
+				margin-bottom: 0;
+				display: inline-block;
+			}
+
+			svg {
+				color: $white;
+			}
+		}
+	}
+
+	.ftco-legal {
+		width: 100%;
+		padding: 20px 0;
+		border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+		.ftco-footer-widget {
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+
+
+			@include media-breakpoint-up(md) {
+				flex-direction: row;
+				justify-content: space-between;
+			}
+
+			p {
+				margin-bottom: 0;
+			}
+
+			p:nth-child(even) {
+				margin: 0 10px;
+
+				@include media-breakpoint-up(md) {
+					margin: 0 20px;
+				}
+			}
+		}
+	}
+}

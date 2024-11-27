@@ -1,0 +1,74 @@
+.ftco-section-services {
+  .heading-section {
+    margin-bottom: 50px;
+  }
+}
+
+.services-wrap {
+  width: 100%;
+  padding: 40px 20px;
+  margin: 10px 10px;
+  background-color: $darken;
+  border: 1px solid rgba(255, 255, 255, .025);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+
+  @include media-breakpoint-up(md) {
+    margin: 10px 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin: 0;
+  }
+
+  .divider {
+    width: 5%;
+    height: 1px;
+    background-color: $primary;
+    margin: 20px auto;
+  }
+
+}
+
+.services-cta {
+  margin-top: 50px;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 100px;
+  }
+
+}
+
+.ftco-section-services-block {
+  border: 1px solid rgba(0, 0, 0, .025);
+
+  .col-md-10 {
+    background-color: $primary;
+  }
+
+}
+
+.ftco-section-portfolio {
+  .btn {
+    margin-top: 50px;
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 100px;
+    }
+  }
+}
+
+.ftco-section-solutions {
+  @include media-breakpoint-down(sm) {
+    padding: 0;
+  }
+
+
+  .solutions-wrap {
+    padding: 80px 20px;
+
+    @include media-breakpoint-up(md) {
+      padding: 40px 40px;
+
+    }
+  }
+}

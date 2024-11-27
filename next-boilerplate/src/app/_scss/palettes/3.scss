@@ -1,0 +1,36 @@
+// Dark theme color palette
+$white: #f0fcff; // Light text or accents
+$black: #000000; // Background or dark accents
+$dark: #032f40; // Deep dark blue for primary text and elements
+$darken: #121314; // Darker shades for background or borders
+$light: #bbbbbb; // Lighter text or hover states
+
+
+$primary: #0fc9f2; // Primary accent color
+$secondary: #1e4652; // Darkened secondary color for muted accents
+$tertiary: #066a7c; // Darkened tertiary color for subtle highlights
+$danger: #ff4c4c; // Red for danger alerts
+$success: #28a745; // Green for success messages
+$info: #17a2b8; // Teal for informational elements
+$warning: #ffc107; // Yellow for warnings
+$body: #bbbbbb; // Default text color
+$footer: rgba(255, 255, 255, 0.4);
+$divider: rgba(255, 255, 255, 0.1);
+
+// Colors map for use in theme
+$colors: (
+  "primary": $primary,
+  "dark": $dark,
+  "light": $light,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "danger": $danger,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "body": $body,
+  "white": $white,
+  "black": $black,
+  "darken": $darken,
+  "footer": $footer
+);

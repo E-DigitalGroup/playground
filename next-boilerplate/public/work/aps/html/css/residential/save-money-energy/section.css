@@ -1,0 +1,44 @@
+body.ac-upgrade .round {
+	background : transparent url(../../../img/residential/save-money-energy/cooling/round-images.png) -11px -2px no-repeat;
+}
+body.ac-upgrade .prominent-messaging .round {
+	background-position: -11px -2px;
+}
+body.ac-upgrade #did-you-know {
+	color : #fff;
+}
+body.ac-upgrade #did-you-know .round {
+	margin-top : 20px;
+	background-position: -11px -187px;
+}
+
+
+body.ac-upgrade .important-tips {
+	margin-left: 20px;
+}
+body.ac-upgrade #did-you-know  .grid_four{
+	background : #21a050 url(../../../img/backgrounds/green-gradient.png) 100% 0 no-repeat;
+}
+body.ac-upgrade #did-you-know h2 {
+	margin-top : 30px;
+}
+body.ac-upgrade #eligibility .grid_four {
+	padding-top : 30px;
+}
+body.ac-upgrade #eligibility .grid_four li {
+	margin-bottom : 20px
+}
+body.ac-upgrade #rebate-program {
+	margin-bottom : 50px
+}
+body.ac-upgrade #rebate-program h2 {
+	padding-top : 30px;
+}
+body.ac-upgrade #rebate-program .round {
+	margin-top : 20px;
+	background-position: -11px -376px;
+}
+body.ac-upgrade #rebate-program  .grid_four{
+	color : #fff;
+	background : #056da3 url(../../../img/backgrounds/blue-gradient.png) 100% 0 no-repeat;
+}

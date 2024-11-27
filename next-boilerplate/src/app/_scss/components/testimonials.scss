@@ -1,0 +1,96 @@
+.testimony-section {
+  position: relative;
+  z-index: 0;
+
+  .testimony-wrap {
+    height: 200px;
+    position: relative;
+  }
+
+  .user-img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    @include border-radius(50%);
+  }
+
+  .message {
+    color: $body;
+    margin-bottom: 30px;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: $white;
+  }
+
+  .position,
+  .company {
+    color: $body;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+  .position {
+
+    font-size: 16px;
+
+  }
+
+  .carousel {
+    height: 450px;
+
+    @include media-breakpoint-up(md) {
+      height: 350px;
+    }
+
+  }
+
+  .carousel-inner {
+    height: 100%;
+  }
+
+  .carousel-item {
+    height: 100%;
+  }
+
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 100%;
+    bottom: 10px;
+  }
+
+  // .carousel-control-prev {
+  //   left: 20%;
+  // }
+
+  // .carousel-control-next {
+  //   right: 20%;
+  // }
+
+  .carousel-caption {
+    position: inherit;
+    left: 0;
+    right: 0;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0;
+    bottom: -10px;
+  }
+}
+
+.ftco-section:nth-child(even) {
+
+  .message,
+  .position,
+  .company {
+    $color: $dark !important
+  }
+
+}

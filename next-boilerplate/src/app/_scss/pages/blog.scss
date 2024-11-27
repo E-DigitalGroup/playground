@@ -1,0 +1,139 @@
+// List page
+.blog-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-entry {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: $darken;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 50px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin: 30px 10px;
+  }
+
+  .img,
+  .blog-img,
+  .user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  //blocks 
+  .blog-img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+  }
+
+  .author {
+    background: lighten($darken, 3%);
+    padding: 20px 30px 15px 30px;
+    border-radius: 4px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    align-items: center;
+
+    .img {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+    }
+
+    h3 {
+      font-size: 14px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, .7);
+      font-weight: 500;
+    }
+  }
+
+  .text {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 0;
+    padding: 20px 30px 20px 30px;
+
+
+    .heading {
+      font-size: 20px;
+      margin-bottom: 0;
+      font-weight: 500;
+
+      a {
+        color: $white;
+
+        &:hover,
+        &:focus,
+        &:active {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .date {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .btn-custom {
+    text-transform: uppercase;
+    color: $black;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  &:hover {}
+}
+
+//BLOG SINGLE
+.about-author {
+  .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .desc {
+    width: calc(100% - 100px);
+    padding-left: 30px;
+
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
+
+.blog-single {
+  h2 {
+
+    font-weight: 500;
+    margin-top: 50px;
+
+  }
+
+  h3 {
+    font-weight: 500;
+    margin-top: 50px;
+  }
+}

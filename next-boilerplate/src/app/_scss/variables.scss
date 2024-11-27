@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-primary: 'Poppins', Arial, sans-serif;
+$headings-font-family: 'Raleway', Arial, sans-serif !important;
+
+
+@import 'palettes/3.scss';
+
+@each $name, $color in $colors {
+  .bg-#{$name} {
+    background-color: $color !important;
+  }
+
+  .text-#{$name} {
+    color: $color !important;
+  }
+}

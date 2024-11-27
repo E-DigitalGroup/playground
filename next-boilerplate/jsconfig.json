@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@controllers/*": [
+        "controllers/*"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@components/*": [
+        "src/app/_components/*"
+      ],
+      "@data/*": [
+        "src/app/_data/*"
+      ],
+      "@helpers/*": [
+        "src/app/_helpers/*"
+      ],
+      "@hooks/*": [
+        "src/app/_hooks/*"
+      ],
+      "@styles/*": [
+        "src/app/_styles/*"
+      ]
+    }
+  }
+}

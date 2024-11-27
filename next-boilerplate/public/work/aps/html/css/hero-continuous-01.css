@@ -1,0 +1,81 @@
+/****************************** Hero *************************************************/
+#hero {
+	height : 300px;
+	background : #999;
+	color : #fff;
+	position : relative;
+	background : transparent;
+}
+#hero-controls {
+	display : none;
+}
+.arrow-left, .arrow-right {
+  background: transparent url(../img/icons/icons.png) no-repeat -24px -341px;
+  height: 40px;
+  width: 27px;
+  text-indent: -3000px;
+  float : left;
+  z-index: 50;
+	border : 0;
+	top : 130px;
+	cursor : pointer;
+	position : absolute;
+}
+.arrow-left { left: 0}
+
+.arrow-right {
+  background: transparent url(../img/icons/icons.png) no-repeat -66px -341px;
+  right: 0
+}
+.hero-wrapper {
+  width: 930px;
+  height: 300px;
+  position: relative;
+	margin : 0 auto;
+	padding: 0 10px 0 20px;
+}
+.hero-mask {
+	width: 2700px;
+	margin: 0 auto;
+	background: transparent url(../img/residential/hero/hero-mask.png) 50% 0 no-repeat;
+	height: 300px;
+	z-index: 2;
+	position: absolute;
+	left: -865px;
+	top: 0px;
+}
+.hero-slider {
+	width : 50000px;
+	overflow : scroll;/* allows user to scroll images if JS disabled */
+}
+.hero-image {
+	float : left;
+}
+div.headline {
+  position: absolute;
+  background: transparent url(../img/residential/hero/text-content-bgs.png) 0 0 no-repeat;
+  z-index: 50;
+  left: 0px;
+  top: 70px;
+  height: 121px;
+  padding: 20px 10px 20px 20px;
+  width: 351px;
+  height : 115px;
+  overflow: hidden;
+}
+div.headline.blue{
+	background: transparent url(../img/residential/hero/text-content-bgs-blue.png) 0 0 no-repeat;
+}
+div.headline-content {
+  height: 153px;
+}
+div.headline-header {
+  width: 350px;
+	padding-left : 30px;
+  float: right;
+}
+div.headline-header h1 {
+  font-size : 40px;
+	line-height : 1em;
+	margin-bottom : 10px;
+}
